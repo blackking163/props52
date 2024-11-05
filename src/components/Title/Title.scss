@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ 
+    &::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+
+    }
+    &::before{
+        content: '';
+        width: 100%;
+        height: 0;
+        border: 2px dashed black;
+    }
+
+
+}
